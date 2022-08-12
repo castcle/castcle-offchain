@@ -1,5 +1,5 @@
 const ethers = require("ethers");
-const castABI = require("./abis/CAST.json");
+const castABI = require("../abis/CAST.json");
 require("dotenv").config();
 
 async function main() {
