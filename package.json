@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/castcle/castcle-offchain#readme",
   "dependencies": {
+    "@aws-sdk/client-kms": "^3.154.0",
+    "aws-sdk": "^2.1199.0",
     "dotenv": "^16.0.1",
     "ethers": "^5.6.9"
   }
