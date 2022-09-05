@@ -6,7 +6,7 @@ docker run -it --name lambdalayer lambdalayer:latest bash
     python3.9 -m venv eth-signer
     source eth-signer/bin/activate
     /eth-signer/bin/python3.9 -m pip install --upgrade pip
-    pip3 install boto3==1.17.103 web3==5.23.0 asn1tools==0.158.0 eth-account==0.5.5 pip install cytoolz==0.12.0 --target ./python
+    pip3 install boto3==1.17.103 web3==5.30.0 asn1tools==0.158.0 eth-account==0.5.5 cytoolz==0.12.0 --target ./python
     deactivate
     zip -r python.zip ./python/
     docker cp lambdalayer:python.zip /Users/hken-castcle/Documents/GitHub/castcle-offchain/outbound/lambda/
