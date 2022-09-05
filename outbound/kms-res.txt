@@ -1,0 +1,10 @@
+{
+    "KeyId": "arn:aws:kms:us-east-1:044086777883:key/51a0326c-5dac-4614-8f0a-7eda37f3d5bc",
+    "PublicKey": "MFYwEAYHKoZIzj0CAQYFK4EEAAoDQgAEBZ9iz4BbbYVEfOwqYmMSYxdP71havm0PTo9Q4Z5Zf363EvY6V0BbJY6TUi5RgrwvKkJxKrrbMXMHgvQfk3//+w==",
+    "CustomerMasterKeySpec": "ECC_SECG_P256K1",
+    "KeySpec": "ECC_SECG_P256K1",
+    "KeyUsage": "SIGN_VERIFY",
+    "SigningAlgorithms": [
+        "ECDSA_SHA_256"
+    ]
+}
