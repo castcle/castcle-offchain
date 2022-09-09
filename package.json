@@ -18,7 +18,22 @@
   },
   "homepage": "https://github.com/castcle/castcle-offchain#readme",
   "dependencies": {
+<<<<<<< HEAD
+    "@aws-sdk/client-kms": "^3.154.0",
+    "aws-sdk": "^2.1199.0",
     "dotenv": "^16.0.1",
-    "ethers": "^5.6.9"
+    "ethers": "^5.6.9",
+    "serverless": "^3.22.0"
+=======
+    "@rumblefishdev/eth-signer-kms": "^2.1.0",
+    "asn1": "^0.2.6",
+    "dotenv": "^16.0.1",
+    "ethers": "^5.6.9",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "@aws-sdk/client-kms": "^3.162.0",
+    "aws-sdk": "^2.1207.0"
+>>>>>>> signer/kms
   }
 }
